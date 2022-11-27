@@ -20,7 +20,7 @@ const kDesignationTextStyle = TextStyle(
   letterSpacing: 1.5,
 );
 
-const kPhoneNumberTextStyle = TextStyle(
+const kPhoneNumberAndEmailTextStyle = TextStyle(
   fontSize: 20,
   fontWeight: FontWeight.bold,
 );

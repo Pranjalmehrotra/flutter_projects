@@ -1,8 +1,7 @@
-// The screen problem for this solution is given in the images folder
-// image name --> Layout-Challenge-Specs.png
-
-//import 'package:flutter/cupertino.dart';
-//import 'package:flutter/material.dart';
+///The screen problem for this solution is given in the images folder
+/// image name --> Layout-Challenge-Specs.png
+/// This is just for the practise purpose included.Not a part of the project
+import 'package:flutter/material.dart';
 
 /*void main() {
   runApp(const MyApp());
@@ -19,8 +18,8 @@
   }
 }*/
 
-/*class WidgetChallenge extends StatelessWidget {
-  const WidgetChallenge({Key? key}) : super(key: key);
+class LayoutChallengeSolution extends StatelessWidget {
+  const LayoutChallengeSolution({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -60,4 +59,4 @@
       ),
     );
   }
-}*/
+}

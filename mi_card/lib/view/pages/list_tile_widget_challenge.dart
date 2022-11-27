@@ -52,7 +52,7 @@ class ListTileWidgetChallenge extends StatelessWidget {
 
               const SizedBox(
                 width: 300,
-                //width: MediaQuery.of(context).size.width * .8,
+                //width: //MediaQuery.of(context).size.width * .8,
                 child: Divider(
                   color: kNameTextStyleColor,
                   thickness: 1,
@@ -73,7 +73,7 @@ class ListTileWidgetChallenge extends StatelessWidget {
                   ),
                   title: Text(
                     '7355969644',
-                    style: kPhoneNumberTextStyle,
+                    style: kPhoneNumberAndEmailTextStyle,
                   ),
                 ),
               ),
@@ -86,7 +86,7 @@ class ListTileWidgetChallenge extends StatelessWidget {
                   ),
                   title: Text(
                     'pranjalmehrotra213@gmail.com',
-                    style: kPhoneNumberTextStyle,
+                    style: kPhoneNumberAndEmailTextStyle,
                   ),
                 ),
               ),

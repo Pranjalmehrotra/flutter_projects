@@ -1,58 +1,31 @@
 //  Method 1.Using the Container Widget for the Image Asset.
 
+import 'package:dice_app/util/utilities.dart';
 import 'package:flutter/material.dart';
 
-import 'Method2_Expanded_Widget.dart';
+import 'view/pages/expanded_dice_page.dart';
 
 void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: kMainBackgroundColor,
         appBar: AppBar(
           title: const Center(
             child: Text(
               'Dicee',
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 29,
-              ),
+              style: kMainTextStyle,
             ),
           ),
-          backgroundColor: Colors.red,
         ),
+
+        ///This is for redirecting to the ExpandedDicePage class present in the pages(expanded_dice_page.dart)
         body: const ExpandedDicePage(),
+
+        ///This is for redirecting to the ContainerDicePage class present in the pages(container_dice_page.dart)
         //body: const ContainerDicePage(),
       ),
     ),
   );
-}
-
-class ContainerDicePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Container(
-          margin: const EdgeInsets.all(20),
-          alignment: Alignment.centerRight,
-          width: 150,
-          child: const Image(
-              image: AssetImage(
-            'images/dice1.png',
-          )),
-        ),
-        Container(
-          alignment: Alignment.centerRight,
-          width: 150,
-          child: const Image(
-            image: AssetImage('images/dice2.png'),
-          ),
-        ),
-      ],
-    );
-  }
 }

@@ -1,5 +1,4 @@
-//Method 1. Using the Expanded Widget for the Image Asset.
-// Generally prefer to go for Expanded Widget rather than Container.
+///Method 2 --> Displaying Images in the Screen Using Expanded Widget
 import 'dart:math';
 
 import 'package:flutter/material.dart';
